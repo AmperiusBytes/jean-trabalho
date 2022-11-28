@@ -1,0 +1,21 @@
+:root {
+    --cor-detalhe: #CB611A
+}
+
+.banner-imagem {
+    height: 365px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logo-image {
+    border-radius: 50%;
+    border: var(--cor-detalhe) solid 3px;
+    z-index: 999;
+}
+
+.faixa {
+    border-top: var(--cor-detalhe) solid 3px;
+    box-shadow: black 0px -10px 0px;
+    height: 60px;
+}
