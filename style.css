@@ -19,3 +19,8 @@
     box-shadow: black 0px -10px 0px;
     height: 60px;
 }
+
+.player-card {
+    width: 120px;
+    background-color: black;
+}

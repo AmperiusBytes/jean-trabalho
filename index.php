@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="bg-light">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Atlética Binária</title>
 </head>
-<body>
+
+<body class="bg-light">
     <header class="container-xxl p-0">
         <div class="w-100 position-relative">
             <img class="banner-imagem" src="img/banner3.jpg" alt="Banner com imagem do time da Atlética Binária">
@@ -22,11 +24,13 @@
                 </picture>
             </a>
         </div>
-        <div class="container-xxl bg-black banner-faixa p-0 position-relative faixa"></div>
-        <nav class="navbar navbar-expand-lg navbar-dark" >
+        <div class="container-xxl bg-black banner-faixa p-0 position-relative faixa">
+        </div>
+        <div class="container-xxl p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
@@ -50,9 +54,56 @@
                     </div>
                 </div>
             </nav>
+        </div>
     </header>
-    <main class="container-xxl mt-5">
+    <main class="container-xxl mt-5 bg-light">
+        <section class="container">
+            <h2 class="text-center titulo-secao">TIME DE FUTEBOL</h2>
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    <div>
+                        <div class="d-flex">
+                            <img src="" alt="" class="card-image">
+                            <div class="card-info">
+                                <h3>NOME</h3>
+                                <div class="d-flex">
+                                    <p>ALTURA</p>
+                                    <p>IDADE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div>
+                        <div class="d-flex">
+                            <img src="" alt="" class="card-image">
+                            <div class="card-info">
+                                <h3>NOME</h3>
+                                <div class="d-flex">
+                                    <p>ALTURA</p>
+                                    <p>IDADE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="d-flex">
+                            <img src="" alt="" class="card-image">
+                            <div class="card-info">
+                                <h3>NOME</h3>
+                                <div class="d-flex">
+                                    <p>ALTURA</p>
+                                    <p>IDADE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
