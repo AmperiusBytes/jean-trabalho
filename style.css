@@ -21,6 +21,12 @@
 }
 
 .player-card {
-    width: 120px;
     background-color: black;
+    max-width: 500px;
+    min-width: 390px;
+}
+
+.card-image {
+    width: 50%;
+    height: 230px;
 }

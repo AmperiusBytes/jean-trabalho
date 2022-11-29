@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-light">
+<html lang="pt-br" class="bg-light">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
             <img class="banner-imagem" src="img/banner3.jpg" alt="Banner com imagem do time da Atlética Binária">
             <a href="index.php">
                 <picture>
-                    <source srcset="img/logo.jpg" media="(min-width: 600px)">
+                    <source srcset="img/logo.jpg" media="(min-width: 960px)">
                     <img class="logo-image position-absolute top-100 start-50 translate-middle" src="img/logo-menor.jpg" alt="Logo da Atlética">
                 </picture>
             </a>
@@ -57,52 +57,88 @@
         </div>
     </header>
     <main class="container-xxl mt-5 bg-light">
-        <section class="container">
-            <h2 class="text-center titulo-secao">TIME DE FUTEBOL</h2>
-            <div class="container text-center">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                    <div>
-                        <div class="d-flex">
-                            <img src="" alt="" class="card-image">
-                            <div class="card-info">
-                                <h3>NOME</h3>
-                                <div class="d-flex">
-                                    <p>ALTURA</p>
-                                    <p>IDADE</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div>
-                        <div class="d-flex">
-                            <img src="" alt="" class="card-image">
-                            <div class="card-info">
-                                <h3>NOME</h3>
-                                <div class="d-flex">
-                                    <p>ALTURA</p>
-                                    <p>IDADE</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <section class="container mb-5">
 
-                    <div>
-                        <div class="d-flex">
-                            <img src="" alt="" class="card-image">
-                            <div class="card-info">
-                                <h3>NOME</h3>
-                                <div class="d-flex">
-                                    <p>ALTURA</p>
-                                    <p>IDADE</p>
-                                </div>
-                            </div>
-                        </div>
+            <h2 class="text-center mb-3">TIME DE FUTEBOL</h2>
+            <div id="carouselExampleControls" class="carousel slide bg-dark">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <?php include 'components/card.php'?>
                     </div>
-
+                    <div class="carousel-item">
+                        <?php include 'components/card.php'?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php include 'components/card.php'?>
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+
         </section>
+
+        <section class="container mb-5">
+
+            <h2 class="text-center mb-3">TIME DE VÔLEI</h2>
+            <div id="carrosselVolei" class="carousel slide bg-dark">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <?php include 'components/card.php'?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php include 'components/card.php'?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php include 'components/card.php'?>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselVolei" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrosselVolei" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
+        <section class="container mb-5">
+
+            <h2 class="text-center mb-3">TIME DE QUEIMADA</h2>
+            <div id="carrosselQueimada" class="carousel slide bg-dark">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <?php include 'components/card.php'?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php include 'components/card.php'?>
+                    </div>
+                    <div class="carousel-item">
+                        <?php include 'components/card.php'?>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselQueimada" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carrosselQueimada" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+
     </main>
 </body>
 
