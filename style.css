@@ -1,5 +1,6 @@
 :root {
-    --cor-detalhe: #CB611A
+    --cor-detalhe: #CB611A;
+    --fs-small: 1rem;
 }
 
 .banner-imagem {
@@ -29,4 +30,8 @@
 .card-image {
     width: 50%;
     height: 230px;
+}
+
+@media only screen and (max-width: 540px) {
+
 }
