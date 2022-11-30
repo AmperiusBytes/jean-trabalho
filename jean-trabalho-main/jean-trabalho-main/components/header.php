@@ -21,7 +21,7 @@
 </head>
 
 <body class="bg-light">
-    <header class="container-xxl p-0 mb-5">
+    <header class="container-xxl p-0">
         <div class="w-100 position-relative">
             <img class="banner-imagem" src="img/banner3.jpg" alt="Banner com imagem do time da Atlética Binária">
             <a href="index.php">
@@ -42,13 +42,13 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav justify-content-around w-100">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php#times">Times</a>
+                                <a class="nav-link" href="#times">Times</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Diretoria</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="eventos.php#eventos">Eventos</a>
+                                <a class="nav-link" href="#">Eventos</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Galeria</a>
