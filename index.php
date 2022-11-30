@@ -1,96 +1,100 @@
 <?php include 'components/header.php' ?>
-    <main class="container-xxl mt-5 bg-light">
+<main class="container-xxl mt-5 bg-light p-0">
 
-        <section class="container mb-5">
+    <section id="times" class="container mb-5 p-0">
 
         <?php
-            require_once 'classes/Database.php';
+        require_once 'classes/Database.php';
 
-            $db = new \classes\Database();
-            $jogadoresFutebol = $db->selecionarTime('time_futebol');
-            print_r($jogadoresFutebol);
+        $db = new \classes\Database();
+        $jogadoresFutebol = $db->selecionarJogadores('time_futebol');
+        $jogadoresVolei = $db->selecionarJogadores('time_volei');
+        $jogadoresQueimada = $db->selecionarJogadores('time_queimada');
         ?>
 
-            <h2 class="text-center mb-3">TIME DE FUTEBOL</h2>
-            <div id="carouselExampleControls" class="carousel slide bg-dark">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <?php include 'components/card.php'?>
+        <h2 class="text-center mb-3">TIME DE FUTEBOL</h2>
+        <div id="carouselExampleControls" class="carousel slide">
+            <div class="carousel-inner">
+                <?php
+                $jogadores = $jogadoresFutebol;
+                $count = 0;
+                foreach ($jogadores as $jogador) : ?>
+                    <div class="carousel-item <?= $count == 0 ? 'active' : '' ?>">
+                        <?php include 'components/card.php' ?>
                     </div>
-                    <div class="carousel-item">
-                        <?php include 'components/card.php'?>
-                    </div>
-                    <div class="carousel-item">
-                        <?php include 'components/card.php'?>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <?php
+                    $count++;
+                endforeach; ?>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        </section>
+    </section>
 
-        <section class="container mb-5">
+    <section class="container mb-5 p-0">
 
-            <h2 class="text-center mb-3">TIME DE VÔLEI</h2>
-            <div id="carrosselVolei" class="carousel slide bg-dark">
-                <div class="carousel-inner">
+        <h2 class="text-center mb-3">TIME DE VÔLEI</h2>
+        <div id="carrosselVolei" class="carousel slide">
+            <div class="carousel-inner">
+                <?php
+                $jogadores = $jogadoresVolei;
+                $count = 0;
+                foreach ($jogadores as $jogador) : ?>
                     <div class="carousel-item active">
-                        <?php include 'components/card.php'?>
+                        <?php include 'components/card.php' ?>
                     </div>
-                    <div class="carousel-item">
-                        <?php include 'components/card.php'?>
-                    </div>
-                    <div class="carousel-item">
-                        <?php include 'components/card.php'?>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselVolei" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carrosselVolei" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <?php
+                    $count++;
+                endforeach; ?>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosselVolei" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosselVolei" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        </section>
+    </section>
 
-        <section class="container mb-5">
+    <section class="container mb-5 p-0">
 
-            <h2 class="text-center mb-3">TIME DE QUEIMADA</h2>
-            <div id="carrosselQueimada" class="carousel slide bg-dark">
-                <div class="carousel-inner">
+        <h2 class="text-center mb-3">TIME DE QUEIMADA</h2>
+        <div id="carrosselQueimada" class="carousel slide">
+            <div class="carousel-inner">
+                <?php
+                $jogadores = $jogadoresQueimada;
+                $count = 0;
+                foreach ($jogadores as $jogador) : ?>
                     <div class="carousel-item active">
-                        <?php include 'components/card.php'?>
+                        <?php include 'components/card.php' ?>
                     </div>
-                    <div class="carousel-item">
-                        <?php include 'components/card.php'?>
-                    </div>
-                    <div class="carousel-item">
-                        <?php include 'components/card.php'?>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carrosselQueimada" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carrosselQueimada" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <?php
+                    $count++;
+                endforeach; ?>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrosselQueimada" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carrosselQueimada" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-        </section>
+    </section>
 
-    </main>
+</main>
 </body>
 
 </html>
