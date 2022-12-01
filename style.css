@@ -4,6 +4,8 @@
     --fs-small: 1rem;
 }
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 /*Geral*/
 
 body {
@@ -11,20 +13,6 @@ body {
 }
 
 /*Header*/
-
-.login-bar {
-    background-color: var(--cor-detalhe);
-    color: black;
-}
-
-.user-link {
-    text-decoration: none;
-    color: black;
-}
-
-.user-link:hover {
-    color: white;
-}
 
 .banner-imagem {
     height: 365px;
@@ -42,6 +30,14 @@ body {
     border-top: var(--cor-detalhe) solid 3px;
     box-shadow: black 0px -10px 0px;
     height: 60px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--cor-detalhe) !important;
 }
 
 /*Carrossel*/
@@ -206,10 +202,6 @@ h2 {
     font-size: 130%
 }
 
-.row:last-child .card:last-of-type .card-cont h3 {
-    text-decoration: line-through
-}
-
 .card-cont>div {
     display: table-row
 }
@@ -239,7 +231,7 @@ h2 {
     text-decoration: none;
     width: 80px;
     height: 30px;
-    background-color: #037FDD;
+    background-color: var(--cor-detalhe);
     color: #fff;
     text-align: center;
     line-height: 30px;
@@ -249,12 +241,8 @@ h2 {
     bottom: 10px
 }
 
-.row:last-child .card:first-child .card-cont a {
-    background-color: #037FDD
-}
-
-.row:last-child .card:last-child .card-cont a {
-    background-color: #F8504C
+.card-cont a:hover {
+    background-color: #2b2b2b;
 }
 
 @media screen and (max-width: 860px) {
