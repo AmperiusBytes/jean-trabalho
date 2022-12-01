@@ -49,13 +49,13 @@
                                 <a class="nav-link" href="index.php#times">Times</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="diretoria.php">Diretoria</a>
+                                <a class="nav-link" href="diretoria.php#diretoria">Diretoria</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="eventos.php#eventos">Eventos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Galeria</a>
+                                <a class="nav-link" href="index.php#galeria">Galeria</a>
                             </li>
                         </ul>
                     </div>

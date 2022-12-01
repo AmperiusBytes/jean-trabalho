@@ -96,6 +96,32 @@
 
     </section>
 
+    <section id="galeria" class="container mb-5 p-0">
+        <h2>Galeria</h2>
+        <!-- Gallery -->
+        <div class="row galeria-conteudo">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="storage/galeria/1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Logo da Atlética" />
+
+                <img src="storage/galeria/2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Torcedores com camisas da Atlética" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="storage/galeria/3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Jogadores em campo" />
+
+                <img src="storage/galeria/4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Jogadores reunidos em círculo" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="storage/galeria/5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Jogadores em quadra" />
+
+                <img src="storage/galeria/6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Jogadores em campo" />
+            </div>
+        </div>
+        <!-- Gallery -->
+    </section>
+
+
 </main>
 <?php include 'components/footer.php' ?>
 </body>

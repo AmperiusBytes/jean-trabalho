@@ -40,6 +40,17 @@ body {
     color: var(--cor-detalhe) !important;
 }
 
+.galeria-conteudo {
+    max-width: 300px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 580px) {
+    .galeria-conteudo {
+        max-width: none;
+    }
+}
+
 /*Carrossel*/
 
 .carousel-control-prev-icon {
@@ -114,8 +125,17 @@ h2 {
     font-weight: 900;
     border-left: 10px solid var(--cor-detalhe);
     padding-left: 10px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
+
+@media screen and (min-width: 580px) {
+    h2 {
+        margin-left: 0;
+    }
+}
+
+
 
 .row {
     overflow: hidden
@@ -306,4 +326,66 @@ h2 {
 
 .binaria-texto {
     color: var(--cor-detalhe);
+}
+
+/*Diretoria*/
+
+.profile-card {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    -webkit-box-shadow: -1px 3px 19px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 19px -6px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 19px -6px rgba(0,0,0,0.75);
+}
+
+.profile-background {
+    height: 25%;
+    background-color: var(--cor-especial);
+    margin-bottom: 25%;
+    border-bottom: dashed black 2px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.profile-image {
+    width: 45%;
+    border-radius: 50%;
+    border: dashed black 2px;
+}
+
+.profile-text {
+    border-top: solid 1px grey;
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.profile-title {
+    font-size: 1.2rem;
+}
+
+.profile-text small {
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.profile-button:hover {
+    background-color: var(--cor-especial) !important;
+}
+
+@media screen and (min-width: 860px) {
+    .profile-card {
+        width: 300px;
+        height: 400px;
+    }
+
+    .profile-title {
+        font-size: 1.5rem;
+    }
+    
+    .profile-text small {
+        font-size: 0.9rem;
+    }
 }

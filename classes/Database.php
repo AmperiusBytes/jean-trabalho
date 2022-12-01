@@ -9,7 +9,7 @@ class Database {
     private $conn;
 
     function __construct() {
-        $this->conn = new PDO('mysql:host=localhost;dbname=db_atletica', 'root', '14220032A@');
+        $this->conn = new PDO('mysql:host=localhost;dbname=db_atletica;', 'root', '123');
     }
 
     function selecionarJogadores($time) {    

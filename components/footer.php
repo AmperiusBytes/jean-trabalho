@@ -14,36 +14,38 @@
       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i></a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-instagram"></i></a>
+      <a class="btn btn-outline-light btn-floating m-1" target="_BLANK" href="https://www.instagram.com/atleticaengenharias.unipinhal/" role="button"><i class="bi bi-instagram"></i></a>
     </section>
     <!-- Section: Social media -->
 
 
     <!-- Section: Map -->
-    <section class="mb-4 justify-content-center row row-cols-1 row-cols-md-2">
-      <div class="mapouter col mb-5">
-        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=unipinhal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br>
-          <style>
-            .mapouter {
-              position: relative;
-              text-align: right;
-              height: 500px;
-              width: 600px;
-            }
-          </style><a href="https://www.embedgooglemap.net">embedded map</a>
-          <style>
-            .gmap_canvas {
-              overflow: hidden;
-              background: none !important;
-              height: 500px;
-              width: 600px;
-            }
-          </style>
+    <section class="mb-4 justify-content-center row row-cols-1 row-cols-sm-2">
+      <div class="col overflow-hidden">
+        <div class="mapouter mb-5">
+          <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=unipinhal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 600px;
+              }
+            </style><a href="https://www.embedgooglemap.net">embedded map</a>
+            <style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 600px;
+              }
+            </style>
+          </div>
         </div>
       </div>
       <div class="col">
         <ul id="contato-info" class="text-start">
-          <li><i class="bi bi-geo-fill pe-2"></i><span>Localização: </span> Av. Hélio Vergueiro Leite - Jardim Universitário, Espírito Santo do Pinhal - SP, 13990-000</li>
+          <li><i class="bi bi-geo-fill pe-2"></i><span>Localização: </span> Av. Hélio Vergueiro Leite, Bloco E - Jardim Universitário, Espírito Santo do Pinhal - SP, 13990-000</li>
           <li><i class="bi bi-telephone-fill pe-2"></i><span>Telefone: </span><a href="tel:+551999383-1995">(19)99383-1995</a></li>
           <li><i class="bi bi-envelope-fill pe-2"></i><span>E-mail: </span><a href="mailto:atleticaengenharias.unipinhal@gmail.com">atleticaengenharias.unipinhal@gmail.com</a></li>
         </ul>
@@ -60,7 +62,7 @@
                     </p>
                   </blockquote>
                   <figcaption class="blockquote-footer mb-0">
-                    Steve Jobs in <cite title="Source Title">Source Title</cite>
+                    Os Binários em <cite title="Source Title">2022</cite>
                   </figcaption>
                 </figure>
 
@@ -103,7 +105,7 @@
 
   <!-- Copyright -->
   <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2022 Atlética Binária - UNIPINHAL
+    © 2022 Atlética Binária - Desenvolvido por Katriel Camilo
   </div>
   <!-- Copyright -->
 </footer>
