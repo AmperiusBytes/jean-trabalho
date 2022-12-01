@@ -262,3 +262,48 @@ h2 {
         font-size: 75%
     }
 }
+
+/*Evento*/
+
+.evento-descricao {
+    padding: 30px;
+    border: solid;
+    height: 200px;
+    overflow: scroll;
+    border-radius: 8px;
+    scrollbar-color: var(--cor-detalhe) black;
+}
+
+#evento-info .bi-geo-alt-fill {
+    color: rgb(187, 4, 4);
+}
+
+/*Footer*/
+
+#contato-info {
+    list-style: none;
+}
+
+#contato-info li {
+    margin-bottom: 8px;
+}
+
+#contato-info span {
+    font-weight: bold;
+}
+
+#contato-info a {
+    color: white;
+}
+
+#contato-secao {
+    text-align: center;
+}
+
+.mapouter {
+    margin: auto;
+}
+
+.binaria-texto {
+    color: var(--cor-detalhe);
+}

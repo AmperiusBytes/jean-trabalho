@@ -12,6 +12,8 @@
         $jogadoresQueimada = $db->selecionarJogadores('time_queimada');
         ?>
 
+        <h1 class="text-center mb-5">Atlética <span class="binaria-texto text-decoration-underline">BINÁRIA</span></h1>
+
         <h2 class="mb-5">TIME DE FUTEBOL</h2>
         <div id="carouselExampleControls" class="carousel slide">
             <div class="carousel-inner">

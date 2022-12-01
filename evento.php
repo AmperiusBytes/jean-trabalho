@@ -28,12 +28,12 @@ $horarioFim = DateTime::createFromFormat('H:i:s', $evento['horario_fim']);
 ?>
 
 <main class="container-xxl bg-light p-0 mb-5">
-    <section class="container">
+    <section class="container" id="evento-info">
         <h2>EVENTO: <?=$evento['titulo']?></h2>
-        <p><i class="bi bi-clock"> <?=$horarioInicio->format('H:i') . ' - ' . $horarioFim->format('H:i')?></i>
+        <p><i class="bi bi-clock"> <?=$horarioInicio->format('H:i\h') . ' - ' . $horarioFim->format('H:i\h')?></i>
         <p><i class="bi bi-calendar"> <?=$date->format('d/m/Y')?></i></p>
         <p><i class="bi bi-geo-alt-fill"> <?=$evento['localizacao']?></i></p>
-        <p><?=$evento['descricao']?></p>
+        <p class="evento-descricao"><?=$evento['descricao']?></p>
     </section>
 </main>
 

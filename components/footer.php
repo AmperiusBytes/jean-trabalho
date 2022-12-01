@@ -3,66 +3,101 @@
   <!-- Grid container -->
   <div class="container p-4">
     <!-- Section: Social media -->
-    <section class="mb-4">
+    <section class="mb-5">
       <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="bi bi-facebook"></i
-      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-facebook"></i></a>
 
       <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="bi bi-twitter"></i
-      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-twitter"></i></a>
 
       <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="bi bi-google"></i
-      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-google"></i></a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="bi bi-instagram"></i
-      ></a>
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="bi bi-instagram"></i></a>
     </section>
     <!-- Section: Social media -->
 
 
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
+    <!-- Section: Map -->
+    <section class="mb-4 justify-content-center row row-cols-1 row-cols-md-2">
+      <div class="mapouter col mb-5">
+        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=unipinhal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br>
+          <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 500px;
+              width: 600px;
+            }
+          </style><a href="https://www.embedgooglemap.net">embedded map</a>
+          <style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 500px;
+              width: 600px;
+            }
+          </style>
+        </div>
+      </div>
+      <div class="col">
+        <ul id="contato-info" class="text-start">
+          <li><i class="bi bi-geo-fill pe-2"></i><span>Localização: </span> Av. Hélio Vergueiro Leite - Jardim Universitário, Espírito Santo do Pinhal - SP, 13990-000</li>
+          <li><i class="bi bi-telephone-fill pe-2"></i><span>Telefone: </span><a href="tel:+551999383-1995">(19)99383-1995</a></li>
+          <li><i class="bi bi-envelope-fill pe-2"></i><span>E-mail: </span><a href="mailto:atleticaengenharias.unipinhal@gmail.com">atleticaengenharias.unipinhal@gmail.com</a></li>
+        </ul>
+        <section>
+          <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              <div>
+
+                <figure class="bg-light p-4" style="border-left: .35rem solid #ee7320; border-top: 1px solid #eee; border-right: 1px solid #eee; border-bottom: 1px solid #eee;">
+                  <i class="bi bi-quote text-start mb-4" style="color: #ee7320;"></i>
+                  <blockquote class="blockquote pb-2">
+                    <p class="text-black">
+                      Quem tem valor é variável....<br>a gente mesmo, não vale nada!
+                    </p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer mb-0">
+                    Steve Jobs in <cite title="Source Title">Source Title</cite>
+                  </figcaption>
+                </figure>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </section>
-    <!-- Section: Text -->
+    <!-- Section: Map -->
 
     <!-- Section: Links -->
     <section class="">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0 m-auto">
-          <h5 class="">Navegação</h5>
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0 m-auto">
+        <h5 class="font-weight-bold"><i class="bi bi-caret-right-fill"></i>Navegação</h5>
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="index.php#times" class="text-white">Times</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Diretoria</a>
-            </li>
-            <li>
-              <a href="eventos.php#eventos" class="text-white">Eventos</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Galeria</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="index.php#times" class="text-white">Times</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Diretoria</a>
+          </li>
+          <li>
+            <a href="eventos.php#eventos" class="text-white">Eventos</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Galeria</a>
+          </li>
+        </ul>
       </div>
-      <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
+      <!--Grid column-->
+  </div>
+  <!--Grid row-->
+  </section>
+  <!-- Section: Links -->
   </div>
   <!-- Grid container -->
 
